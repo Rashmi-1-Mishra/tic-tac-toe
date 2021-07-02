@@ -1,0 +1,8 @@
+.Button {
+  border: 2px solid red;
+  padding-top: 25%;
+  font-weight: bold;
+}
+.Button:hover {
+  background-color: #F5F5DC;
+}

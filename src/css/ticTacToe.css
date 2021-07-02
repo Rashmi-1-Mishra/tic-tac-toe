@@ -1,0 +1,29 @@
+.ticTacToe-grid {
+  width:40vw;
+  height: 50vh;
+  background: white;
+  transform: translate(75% , 10%);
+}
+.grid-items {
+  width: inherit;
+  height: inherit;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+h2 {
+  font-size: 2em;
+  font-style: italic;
+  color: #800000;
+}
+.reset-btn {
+  width: 100px;
+  height: 30px;
+  background: #aaa2aa;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid #20b2aa;
+}
+.reset-btn:hover{
+    background-color: #20b2aa;
+}
